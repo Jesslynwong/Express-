@@ -1,8 +1,6 @@
 # Express源码解析
 
-![image-20220211213742888](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20220211213742888.png)
 
-![image-20220211183648141](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20220211183648141.png)
 
 **个人认为该框架可以主要分为两个部分理解**
 
