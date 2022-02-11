@@ -1,5 +1,6 @@
 # Express源码解析
 
+GitHub中有两张图上传不了，可以看看上传至掘金版本：https://juejin.cn/post/7063453770679582728
 
 
 **个人认为该框架可以主要分为两个部分理解**
@@ -228,3 +229,8 @@ Route.prototype.dispatch = function(res,req,out) {
 module.exports = Route;
 ```
 
+## 优缺点
+
+优点：线性逻辑，通过中间件形式把业务逻辑细分、简化，一个请求进来经过一系列中间件处理后再响应给用户，清晰明了。并且相较于KOA来说用户基数较多
+
+缺点：基于 callback 组合业务逻辑，业务逻辑复杂时嵌套过多，异常捕获困难
